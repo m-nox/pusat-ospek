@@ -1,0 +1,8 @@
+
+> pusatospek@0.0.0 build
+> tsc -b && vite build
+
+src/components/Topbar.tsx(14,12): error TS1361: 'UserIcon' cannot be used as a value because it was imported using 'import type'.
+src/main.tsx(6,4): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+src/main.tsx(8,5): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+src/pages/admin/AdminDashboardPage.tsx(11,10): error TS6133: 'referrals' is declared but its value is never read.
